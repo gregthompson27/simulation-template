@@ -1,7 +1,27 @@
 Simulation Template
 ===
 
-<<<UPDATE>>> UPDATE THIS INTRO SENTENCE TO REFLECT THE NATURE OF THE SIMULATION ACTIVITY
+# Creating Your Own Project?
+
+If you're creating your own project, you should be able to get that project working by running the following commands:
+
+- `git clone https://github.com/gregthompson27/simulation-template`
+- `cd simulation-template`
+- `rm -rf .git* .master`
+
+Then create your own new github repo for this project
+
+- `git clone <your_repo_link>`
+- `mv README.md setup.sh <your_repo_name>`
+- `cd <your_repo_name>`
+
+After you've done all of that and updated instruction for the new activity you can push code up to github.
+* Make sure to get rid of all the update statements in this readme
+* Make sure to properly change all instances of 'taco-shop' to the name of your new repo in the .sh file
+
+<<<UPDATE>>> DELETE THIS ENTIRE SECTION ABOVE AFTER CREATING YOUR PROJECT
+
+<<<UPDATE>>> UPDATE THIS INTRO SENTENCE BELOW TO REFLECT THE NATURE OF THE SIMULATION ACTIVITY
 
 Create a simulation activity from this template and change out the information as needed.
 
